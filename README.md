@@ -51,6 +51,7 @@ Node MCU ESP8266 Specifications & Features
  PCB Antenna
  Small Sized module to fit smartly inside your IoT projects
 
+![Screenshot 2022-11-29 203747 1](https://user-images.githubusercontent.com/119427824/204775011-1f3fafab-2e69-4f93-92fa-4f3b3bae8d35.png)
 
 Power Relay
 IoT Power Relay is a controllable power relay equipped with four outputs that
@@ -75,18 +76,18 @@ on, two normally off.
  Mounting tab with two screw holes
 
 
+![Screenshot 2022-11-29 203913 2](https://user-images.githubusercontent.com/119427824/204775056-94bbf9c6-0e6a-4267-aa3a-3413c0e62b2c.png)
 
 Circuit Diagram:
+![Screenshot 2022-11-29 204000 3](https://user-images.githubusercontent.com/119427824/204775088-69334582-5fa1-40ee-8790-36b0a8d6629b.png)
 
 
-
-
-code
 
 
 Output:
 When you on a serial monitor, after uploading the code, you will
 get the Ip address on the serial monitor.
+![Screenshot 2022-11-30 160439 4](https://user-images.githubusercontent.com/119427824/204775141-732aaca2-5f98-4c20-bbe9-624ece2a8a91.png)
 
 
 
@@ -94,3 +95,17 @@ Then after copying the Ip address to the to a webserver of web
 browser (like google chrome or Firefox) then you will get to know
 the Ip address of the host in which it is connected. Then you can
 control the appliance accordingly.
+![Screenshot 2022-11-30 160523 5](https://user-images.githubusercontent.com/119427824/204775195-b3ad6014-951f-45c4-812d-5891415f5ba4.png)
+
+
+When GPIO 5 is off then light is off.
+![Screenshot 2022-11-30 160612 6](https://user-images.githubusercontent.com/119427824/204775311-fdc52053-51d7-43b7-af86-95187d48f547.png)
+![Screenshot 2022-11-30 160638 7](https://user-images.githubusercontent.com/119427824/204775333-ebe74eb0-2f8b-4ed0-bcc1-ad094169e085.png)
+
+
+
+When GPIO 5 is on then light is on.
+![Screenshot 2022-11-30 160707 9](https://user-images.githubusercontent.com/119427824/204775368-0db3526a-659a-4212-beb7-56cc6df7d8f8.png)
+![Screenshot 2022-11-30 160738 10](https://user-images.githubusercontent.com/119427824/204775380-2b0fa48d-bf4a-45f8-86c1-455ca0944028.png)
+
+
